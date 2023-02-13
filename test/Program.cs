@@ -41,6 +41,8 @@ void PrintArray(string[] array)
         Console.Write($"{array[i]} ");
     }
 }
+
+Console.Clear();
 string[] array1 = CreateArray();
 string[] array2 = new string[array1.Length];
 PrintArray(array2);
